@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "860642233602",
+    "project_id": "epanda-c0c31",
+    "storage_bucket": "epanda-c0c31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860642233602:android:70eabac9751600e301c61b",
+        "android_client_info": {
+          "package_name": "com.epanda.epanda_ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860642233602-4uilmi6og1q1rqu0f6feipvc03gokasi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epanda.epanda_ecommerce",
+            "certificate_hash": "9dcef55d2347e9573ec39b1db7603c828e1e9f79"
+          }
+        },
+        {
+          "client_id": "860642233602-vatjn2bjmpjisdb044lsag78bpml8mk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3wBHE4H93pSw2t0RNDmeqvHYZTfE1B6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860642233602-vatjn2bjmpjisdb044lsag78bpml8mk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

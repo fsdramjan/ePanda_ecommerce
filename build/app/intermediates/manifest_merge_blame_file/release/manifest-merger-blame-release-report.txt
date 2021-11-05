@@ -1,0 +1,658 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.epanda.epanda_ecommerce"
+4    android:versionCode="10"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:9:5-66
+17-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:9:22-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:10:5-78
+18-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:10:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:11:5-81
+19-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:11:22-78
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-68
+20-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+21-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+22-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:22-107
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e657f7a09b5ce7a4f4221c45d6468229\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e657f7a09b5ce7a4f4221c45d6468229\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e657f7a09b5ce7a4f4221c45d6468229\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:12:5-92:19
+30        android:name="io.flutter.app.FlutterApplication"
+30-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:15:9-57
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\106b8671573dc2e581e08052f35cb7d4\core-1.1.0\AndroidManifest.xml:24:18-86
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:17:9-43
+33        android:label="ePanda"
+33-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:16:9-31
+34        android:networkSecurityConfig="@xml/network_security_config"
+34-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:13:9-69
+35        android:supportsRtl="true"
+35-->[com.facebook.android:facebook-login:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\68bd7c80f7092225c65650d76d638ba4\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:14:9-44
+37        <activity
+37-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:18:9-51:20
+38            android:name="com.epanda.epanda_ecommerce.MainActivity"
+38-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:19:13-41
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:22:13-163
+40            android:hardwareAccelerated="true"
+40-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:23:13-47
+41            android:launchMode="singleTop"
+41-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:20:13-43
+42            android:theme="@style/LaunchTheme"
+42-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:21:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:24:13-55
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+51-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:29:13-32:17
+52                android:name="io.flutter.embedding.android.NormalTheme"
+52-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:30:15-70
+53                android:resource="@style/NormalTheme" />
+53-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:31:15-52
+54            <!--
+55                 Displays an Android View that continues showing the launch screen
+56                 Drawable until Flutter paints its first frame, then this splash
+57                 screen fades out. A splash screen is useful to avoid any visual
+58                 gap between the end of Android's launch screen and the painting of
+59                 Flutter's first frame.
+60            -->
+61            <meta-data
+61-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:38:13-41:17
+62                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+62-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:39:15-79
+63                android:resource="@drawable/launch_background" />
+63-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:40:15-61
+64
+65            <intent-filter>
+65-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:42:13-45:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:43:17-68
+66-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:43:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:44:17-76
+68-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:44:27-74
+69            </intent-filter>
+70            <intent-filter>
+70-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:46:13-49:29
+71                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+71-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:47:17-69
+71-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:47:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:17-76
+73-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:27-73
+74            </intent-filter>
+75        </activity>
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:54:9-56:33
+81            android:name="flutterEmbedding"
+81-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:55:13-44
+82            android:value="2" />
+82-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:56:13-30
+83        <meta-data
+83-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:58:9-59:70
+84            android:name="com.google.android.geo.API_KEY"
+84-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:58:20-65
+85            android:value="AIzaSyAhYULqbwma8p0eCus-ifHmnY-efSKY8ZE" />
+85-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:59:13-68
+86
+87        <!-- Facebook Login configuration -->
+88        <meta-data
+88-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:62:9-63:54
+89            android:name="com.facebook.sdk.ApplicationId"
+89-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:62:20-65
+90            android:value="@string/facebook_app_id" />
+90-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:63:13-52
+91
+92        <activity
+92-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:65:9-70:15
+93            android:name="com.facebook.FacebookActivity"
+93-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:65:19-63
+94            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+94-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:66:13-114
+95            android:exported="true"
+95-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:69:13-36
+96            android:label="@string/app_name"
+96-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:68:13-45
+97            android:theme="@style/com_facebook_activity_theme" />
+97-->[com.facebook.android:facebook-common:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\108f2ff793b5d253177eeefacad90e79\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+98        <activity
+98-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:72:9-81:20
+99            android:name="com.facebook.CustomTabActivity"
+99-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:73:13-58
+100            android:exported="true" >
+100-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:74:13-36
+101            <intent-filter>
+101-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:75:13-80:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:76:17-69
+102-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:76:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:17-76
+104-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:78:17-78
+105-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:78:27-75
+106
+107                <data android:scheme="@string/fb_login_protocol_scheme" />
+107-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:79:17-75
+107-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:79:23-72
+108            </intent-filter>
+109        </activity>
+110
+111        <provider
+112            android:name="androidx.core.content.FileProvider"
+112-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:83:13-62
+113            android:authorities="com.epanda.epanda_ecommerce.com.shekarmudaliyar.social_share"
+113-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:84:13-84
+114            android:exported="false"
+114-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:85:13-37
+115            android:grantUriPermissions="true" >
+115-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:86:13-47
+116            <meta-data
+116-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:88:13-90:53
+117                android:name="android.support.FILE_PROVIDER_PATHS"
+117-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:89:17-67
+118                android:resource="@xml/filepaths" />
+118-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:90:17-50
+119        </provider>
+120
+121        <service
+121-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-15:72
+122            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+122-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-107
+123            android:exported="false"
+123-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-37
+124            android:permission="android.permission.BIND_JOB_SERVICE" />
+124-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-69
+125        <service
+125-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-22:19
+126            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+126-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-97
+127            android:exported="false" >
+127-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+128            <intent-filter>
+128-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-21:29
+129                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+129-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:17-78
+129-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:25-75
+130            </intent-filter>
+131        </service>
+132
+133        <receiver
+133-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-31:20
+134            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+134-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-98
+135            android:exported="true"
+135-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-36
+136            android:permission="com.google.android.c2dm.permission.SEND" >
+136-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-73
+137            <intent-filter>
+137-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-30:29
+138                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+138-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-81
+138-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-78
+139            </intent-filter>
+140        </receiver>
+141
+142        <service
+142-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-37:19
+143            android:name="com.google.firebase.components.ComponentDiscoveryService"
+143-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:18-89
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\b91826b0af99f88950fa9aea2e1ee1cc\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+145            android:exported="false" >
+145-->[com.google.firebase:firebase-analytics-ktx:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3c5a52c47e763d02a1d3157a3876eba2\jetified-firebase-analytics-ktx-20.0.0\AndroidManifest.xml:10:13-37
+146            <meta-data
+146-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-36:85
+147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+147-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:35:17-128
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:36:17-82
+149            <meta-data
+149-->[:firebase_core] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+150                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+150-->[:firebase_core] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[:firebase_core] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-analytics-ktx:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3c5a52c47e763d02a1d3157a3876eba2\jetified-firebase-analytics-ktx-20.0.0\AndroidManifest.xml:11:13-13:85
+153                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+153-->[com.google.firebase:firebase-analytics-ktx:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3c5a52c47e763d02a1d3157a3876eba2\jetified-firebase-analytics-ktx-20.0.0\AndroidManifest.xml:12:17-126
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-analytics-ktx:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3c5a52c47e763d02a1d3157a3876eba2\jetified-firebase-analytics-ktx-20.0.0\AndroidManifest.xml:13:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-firestore-ktx:24.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\9c2ba3f6128cafbe5c11167d59b10d3f\jetified-firebase-firestore-ktx-24.0.0\AndroidManifest.xml:15:13-17:85
+156                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+156-->[com.google.firebase:firebase-firestore-ktx:24.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\9c2ba3f6128cafbe5c11167d59b10d3f\jetified-firebase-firestore-ktx-24.0.0\AndroidManifest.xml:16:17-126
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-firestore-ktx:24.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\9c2ba3f6128cafbe5c11167d59b10d3f\jetified-firebase-firestore-ktx-24.0.0\AndroidManifest.xml:17:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\ae3133af5934b1b981177b7667df55df\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:11:13-13:85
+159                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+159-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\ae3133af5934b1b981177b7667df55df\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\ae3133af5934b1b981177b7667df55df\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\d37f414b1709a234c66cc319e9d4f777\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+162                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+162-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\d37f414b1709a234c66cc319e9d4f777\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\d37f414b1709a234c66cc319e9d4f777\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+165                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+165-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\aa03e5f2168b35591a1b454d3f63b121\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+168                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+168-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\aa03e5f2168b35591a1b454d3f63b121\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\aa03e5f2168b35591a1b454d3f63b121\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\42f98673672035d720fd8140026ecfef\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+171                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+171-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\42f98673672035d720fd8140026ecfef\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\42f98673672035d720fd8140026ecfef\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+174                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+174-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\7dca59904663c91e89413bec3954831a\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+177                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+177-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\7dca59904663c91e89413bec3954831a\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\7dca59904663c91e89413bec3954831a\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+179            <meta-data
+179-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\02f5109ad47fbf9876cbee556faf7e2b\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:30:13-32:85
+180                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+180-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\02f5109ad47fbf9876cbee556faf7e2b\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:31:17-139
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\02f5109ad47fbf9876cbee556faf7e2b\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:32:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e8289625f45b59499199fc4eb1ccadd7\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+183                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+183-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e8289625f45b59499199fc4eb1ccadd7\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e8289625f45b59499199fc4eb1ccadd7\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+185        </service>
+186
+187        <provider
+187-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-43:38
+188            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+188-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-102
+189            android:authorities="com.epanda.epanda_ecommerce.flutterfirebasemessaginginitprovider"
+189-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-88
+190            android:exported="false"
+190-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-37
+191            android:initOrder="99" />
+191-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-35
+192        <provider
+192-->[:image_picker] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\image_picker\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+193            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+193-->[:image_picker] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\image_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-82
+194            android:authorities="com.epanda.epanda_ecommerce.flutter.image_provider"
+194-->[:image_picker] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\image_picker\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-74
+195            android:exported="false"
+195-->[:image_picker] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\image_picker\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+196            android:grantUriPermissions="true" >
+196-->[:image_picker] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\image_picker\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+197            <meta-data
+197-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:88:13-90:53
+198                android:name="android.support.FILE_PROVIDER_PATHS"
+198-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:89:17-67
+199                android:resource="@xml/flutter_image_picker_file_paths" />
+199-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:90:17-50
+200        </provider>
+201
+202        <activity
+202-->[:url_launcher] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-11:74
+203            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+203-->[:url_launcher] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-74
+204            android:exported="false"
+204-->[:url_launcher] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-37
+205            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+205-->[:url_launcher] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\url_launcher\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+206
+207        <receiver
+207-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+208            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+208-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+209            android:exported="true"
+209-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+210            android:permission="com.google.android.c2dm.permission.SEND" >
+210-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+211            <intent-filter>
+211-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-30:29
+212                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+212-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-81
+212-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:25-78
+213            </intent-filter>
+214        </receiver>
+215        <!--
+216             FirebaseMessagingService performs security checks at runtime,
+217             but set to not exported to explicitly avoid allowing another app to call it.
+218        -->
+219        <service
+219-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+220            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+220-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+221            android:directBootAware="true"
+221-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+222            android:exported="false" >
+222-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\8be80dce782e5678476aed8398896e10\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+223            <intent-filter android:priority="-500" >
+223-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-21:29
+224                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+224-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:17-78
+224-->[:firebase_messaging] C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:25-75
+225            </intent-filter>
+226        </service>
+227        <service
+227-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\a5d13d321282a60aa66652ade9b6a08b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+228            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+228-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\a5d13d321282a60aa66652ade9b6a08b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+229            android:exported="false" >
+229-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\a5d13d321282a60aa66652ade9b6a08b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+230            <meta-data
+230-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\a5d13d321282a60aa66652ade9b6a08b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+231                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+231-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\a5d13d321282a60aa66652ade9b6a08b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+232                android:value="cct" />
+232-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\a5d13d321282a60aa66652ade9b6a08b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+233        </service>
+234
+235        <activity
+235-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+236            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+236-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+237            android:excludeFromRecents="true"
+237-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+238            android:exported="true"
+238-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+239            android:launchMode="singleTask"
+239-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+240            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+240-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+241            <intent-filter>
+241-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+242                <action android:name="android.intent.action.VIEW" />
+242-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:76:17-69
+242-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:76:25-66
+243
+244                <category android:name="android.intent.category.DEFAULT" />
+244-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:17-76
+244-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:27-73
+245                <category android:name="android.intent.category.BROWSABLE" />
+245-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:78:17-78
+245-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:78:27-75
+246
+247                <data
+247-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:79:17-75
+248                    android:host="firebase.auth"
+249                    android:path="/"
+250                    android:scheme="genericidp" />
+250-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:79:23-72
+251            </intent-filter>
+252        </activity>
+253        <activity
+253-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+254            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+254-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+255            android:excludeFromRecents="true"
+255-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+256            android:exported="true"
+256-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+257            android:launchMode="singleTask"
+257-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+258            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+258-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+259            <intent-filter>
+259-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+260                <action android:name="android.intent.action.VIEW" />
+260-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:76:17-69
+260-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:76:25-66
+261
+262                <category android:name="android.intent.category.DEFAULT" />
+262-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:17-76
+262-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:27-73
+263                <category android:name="android.intent.category.BROWSABLE" />
+263-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:78:17-78
+263-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:78:27-75
+264
+265                <data
+265-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:79:17-75
+266                    android:host="firebase.auth"
+267                    android:path="/"
+268                    android:scheme="recaptcha" />
+268-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:79:23-72
+269            </intent-filter>
+270        </activity>
+271
+272        <service
+272-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+273            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+273-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+274            android:enabled="true"
+274-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+275            android:exported="false" >
+275-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+276            <intent-filter>
+276-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+277                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+277-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+277-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\3f61c07364cd65d9fc118ec528cfa02d\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+278
+279                <category android:name="android.intent.category.DEFAULT" />
+279-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:17-76
+279-->C:\Users\ramja\Documents\Epanda Projects\ePanda\epanda_app\android\app\src\main\AndroidManifest.xml:48:27-73
+280            </intent-filter>
+281        </service>
+282
+283        <provider
+283-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\b91826b0af99f88950fa9aea2e1ee1cc\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+284            android:name="com.google.firebase.provider.FirebaseInitProvider"
+284-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\b91826b0af99f88950fa9aea2e1ee1cc\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+285            android:authorities="com.epanda.epanda_ecommerce.firebaseinitprovider"
+285-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\b91826b0af99f88950fa9aea2e1ee1cc\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+286            android:directBootAware="true"
+286-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\b91826b0af99f88950fa9aea2e1ee1cc\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+287            android:exported="false"
+287-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\b91826b0af99f88950fa9aea2e1ee1cc\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+288            android:initOrder="100" />
+288-->[com.google.firebase:firebase-common:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\b91826b0af99f88950fa9aea2e1ee1cc\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+289
+290        <receiver
+290-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:29:9-33:20
+291            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+291-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:30:13-85
+292            android:enabled="true"
+292-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:31:13-35
+293            android:exported="false" >
+293-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:32:13-37
+294        </receiver>
+295
+296        <service
+296-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:35:9-38:40
+297            android:name="com.google.android.gms.measurement.AppMeasurementService"
+297-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:36:13-84
+298            android:enabled="true"
+298-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:37:13-35
+299            android:exported="false" />
+299-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:38:13-37
+300        <service
+300-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:39:9-43:72
+301            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+301-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
+302            android:enabled="true"
+302-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:41:13-35
+303            android:exported="false"
+303-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:42:13-37
+304            android:permission="android.permission.BIND_JOB_SERVICE" />
+304-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\f30e246b019288aa9fbcb0de9a05b792\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
+305
+306        <activity android:name="com.facebook.CustomTabMainActivity" />
+306-->[com.facebook.android:facebook-common:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\108f2ff793b5d253177eeefacad90e79\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+306-->[com.facebook.android:facebook-common:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\108f2ff793b5d253177eeefacad90e79\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+307        <!--
+308         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+309         with the application context. This config is merged in with the host app's manifest,
+310         but there can only be one provider with the same authority activated at any given
+311         point; so if the end user has two or more different apps that use Facebook SDK, only the
+312         first one will be able to use the provider. To work around this problem, we use the
+313         following placeholder in the authority to identify each host application as if it was
+314         a completely different provider.
+315        -->
+316        <provider
+316-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+317            android:name="com.facebook.internal.FacebookInitProvider"
+317-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+318            android:authorities="com.epanda.epanda_ecommerce.FacebookInitProvider"
+318-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+319            android:exported="false" />
+319-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+320
+321        <receiver
+321-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+322            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+322-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+323            android:exported="false" >
+323-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+324            <intent-filter>
+324-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+325                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+325-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+325-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+326            </intent-filter>
+327        </receiver>
+328        <receiver
+328-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+329            android:name="com.facebook.CampaignTrackingReceiver"
+329-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+330            android:exported="true"
+330-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+331            android:permission="android.permission.INSTALL_PACKAGES" >
+331-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+332            <intent-filter>
+332-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:55:13-57:29
+333                <action android:name="com.android.vending.INSTALL_REFERRER" />
+333-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:17-79
+333-->[com.facebook.android:facebook-core:5.5.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\46df5c0fe8bceef0f1a0b41dc8313b41\jetified-facebook-core-5.5.1\AndroidManifest.xml:56:25-76
+334            </intent-filter>
+335        </receiver> <!-- Needs to be explicitly declared on P+ -->
+336        <uses-library
+336-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e657f7a09b5ce7a4f4221c45d6468229\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+337            android:name="org.apache.http.legacy"
+337-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e657f7a09b5ce7a4f4221c45d6468229\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+338            android:required="false" />
+338-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e657f7a09b5ce7a4f4221c45d6468229\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+339
+340        <activity
+340-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+341            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+341-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+342            android:excludeFromRecents="true"
+342-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+343            android:exported="false"
+343-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+344            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+344-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+345        <!--
+346            Service handling Google Sign-In user revocation. For apps that do not integrate with
+347            Google Sign-In, this service will never be started.
+348        -->
+349        <service
+349-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+350            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+350-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+351            android:exported="true"
+351-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+352            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+352-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\2e05da257495022acd77851bf32c7157\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+353
+354        <activity
+354-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e24b368fe739a009dd31e3955a7fe7be\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+355            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+355-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e24b368fe739a009dd31e3955a7fe7be\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+356            android:exported="false"
+356-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e24b368fe739a009dd31e3955a7fe7be\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+357            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+357-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\e24b368fe739a009dd31e3955a7fe7be\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+358
+359        <meta-data
+359-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\5aa455afe7b1e7a9d4de8f28605813a6\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+360            android:name="com.google.android.gms.version"
+360-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\5aa455afe7b1e7a9d4de8f28605813a6\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+361            android:value="@integer/google_play_services_version" />
+361-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\5aa455afe7b1e7a9d4de8f28605813a6\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+362
+363        <service
+363-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\839e84654fc8c690bb9df511d43c80d8\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+364            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+364-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\839e84654fc8c690bb9df511d43c80d8\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+365            android:exported="false"
+365-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\839e84654fc8c690bb9df511d43c80d8\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+366            android:permission="android.permission.BIND_JOB_SERVICE" >
+366-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\839e84654fc8c690bb9df511d43c80d8\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+367        </service>
+368
+369        <receiver
+369-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\839e84654fc8c690bb9df511d43c80d8\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+370            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+370-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\839e84654fc8c690bb9df511d43c80d8\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+371            android:exported="false" />
+371-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\ramja\.gradle\caches\transforms-2\files-2.1\839e84654fc8c690bb9df511d43c80d8\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+372    </application>
+373
+374</manifest>

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\106b8671573dc2e581e08052f35cb7d4\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\106b8671573dc2e581e08052f35cb7d4\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\106b8671573dc2e581e08052f35cb7d4\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\106b8671573dc2e581e08052f35cb7d4\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_maps_flutter\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\ff6b0150a6840bd4898311eef77a98ce\\jetified-play-services-base-17.0.0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    }
+]

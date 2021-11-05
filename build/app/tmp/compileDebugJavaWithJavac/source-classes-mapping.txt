@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/epanda/epanda_ecommerce/BuildConfig.java
+ com.epanda.epanda_ecommerce.BuildConfig

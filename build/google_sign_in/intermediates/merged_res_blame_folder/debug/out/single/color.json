@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\83029c6b0b4d07d6f0cb62139f05704b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\83029c6b0b4d07d6f0cb62139f05704b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ramja\\Documents\\Epanda Projects\\ePanda\\epanda_app\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\ramja\\.gradle\\caches\\transforms-2\\files-2.1\\83029c6b0b4d07d6f0cb62139f05704b\\jetified-play-services-base-16.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+    }
+]
